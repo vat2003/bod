@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="drag-container">
+        <div id="spin-container">
+            <!-- Add your images (or video) here -->
+            <img src="FB_IMG_1645680450290.jpg" alt="">
+            <img src="IMG_1645543106412_1645544558790.jpg" alt="">
+            <img src="65668822_140301753733622_5914470768918294442_n.jpg" alt="">
+            <img src="IMG_1646664786256_1646669187534.jpg" alt="">
+            <img src="IMG_1653027180519_1653027447939.jpg" alt="">
+            <img src="IMG_1653027049851_1653027136352.jpg" alt="">
+
+            <!-- Example image with link -->
+            <a target="_blank" href="IMG_1653027049851_1653027136352.jpg">
+                <img src="IMG_1645543106412_1645544558790.jpg" alt="">
+            </a>
+
+            <!-- Example add video  -->
+            <video autoplay="autoplay" loop muted>
+                <source src="lv_7073891154927914241_20220520204008.mp4" type="video/mp4">
+            </video>
+
+            <!-- Text at center of ground -->
+            <p>Hello bae</p>
+        </div>
+        <div id="ground"></div>
+    </div>
+    
+    <div class="choose">
+        <h1>Chọn nhạc đê</h1>
+        <div class="menu">
+            <ul>
+                <li>
+                    <div id="music-container">
+                        <p>Tình ca tình ca</p>
+                        <audio controls autoplay loop>
+                            <source src="./tinhcatinhca.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+                <li>
+                    <div id="music-container">
+                        <p>Send my love</p>
+                        <audio controls loop>
+                            <source src="./sendmylove.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+                <li>
+                    <div id="music-container">
+                        <p>Anh đánh rơi người yêu này</p>
+                        <audio controls loop>
+                            <source src="./anhdanhroinguoiyeunay.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <style>
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out
+        }
+
+        @keyframes octocat-wave {
+
+            0%,
+            100% {
+                transform: rotate(0)
+            }
+
+            20%,
+            60% {
+                transform: rotate(-25deg)
+            }
+
+            40%,
+            80% {
+                transform: rotate(10deg)
+            }
+        }
+
+        @media (max-width:500px) {
+            .github-corner:hover .octo-arm {
+                animation: none
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out
+            }
+        }
+    </style>
+    <script src="./action.js"></script>
+
+</body>
+
+</html>
