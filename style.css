@@ -26,6 +26,7 @@ body {
 body .videobackground video{
     width: 100%;
     position: absolute;
+    
 }
 
 /*  */
@@ -93,7 +94,6 @@ body .videobackground video{
 /*  */
 .choose {
     position: absolute;
-
 }
 .choose h1 {
     margin: 10px;
