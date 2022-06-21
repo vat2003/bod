@@ -15,13 +15,20 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: rgba(255, 192, 203, 0.686);
+    /* background: rgba(255, 192, 203, 0.686); */
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+
+}
+/*  */
+body .videobackground video{
+    width: 100%;
+    position: absolute;
 }
 
+/*  */
 #drag-container,
 #spin-container {
     position: relative;
@@ -67,6 +74,8 @@ body {
     -webkit-transform: translate(-50%, -50%) rotateX(90deg);
     transform: translate(-50%, -50%) rotateX(90deg);
     color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
 
 #ground {
